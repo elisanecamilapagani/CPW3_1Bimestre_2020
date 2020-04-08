@@ -1,0 +1,70 @@
+@import 'fontes';
+@import 'cores';
+
+body{
+    margin: 0;
+    background-color: #f3f2ee;
+}
+
+#banner {
+    background-color: $cor-banner;
+    color: $cor-texto;
+    padding: 20px 0px;
+    font-family:$fonte-decorativa;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 250%;
+}
+
+#validar{
+    text-align: center;
+    margin-top: 30px;
+    font-family: $fonte-padrao;
+}
+
+input{
+    height: 20px;
+    font-size: 100%;
+     border-radius: 1px $cor-banner;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    padding: 10px 15px;
+    width: 200px;
+} 
+#desainer{
+    display: block;
+
+    button{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto 30px auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: $cor-texto;
+    background-color: $cor-banner;
+    box-shadow: 1px 1px 5px;
+}
+
+#button2{
+    margin-left: 80px; 
+    color: $cor-texto;
+    background-color: $cor-banner;
+    box-shadow: 1px 1px 4px ;
+    margin-left: 20px;
+    border-radius: 5px;
+   padding: 5px 10px;
+   }  
+}
+    
+   #resultado {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bolder;
+    display: block;
+     }
+  
+
+

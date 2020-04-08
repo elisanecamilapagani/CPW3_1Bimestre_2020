@@ -1,0 +1,14 @@
+
+@font-face {
+font-family: "padrao";
+src: url(../fonts/RobotoMono-Light.ttf);
+}
+
+@font-face {
+ font-family: "decorativa";
+ src: url(../fonts/RobotoMono-Regular.ttf);
+
+}
+
+$fonte-padrao: "padrao";
+$fonte-decorativa:"decorativa";

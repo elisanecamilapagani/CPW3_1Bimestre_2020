@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estilos.scss">
+    <title>IMC</title>
+</head>
+<body>
+  <div id="banner">
+    <h1>Calculo de IMC</h1>
+    <p>Calcule seu índece de massa corporal</p>
+  </div>
+  <div id="formularioPessoa">
+      <form  onsubmit="aoCalcularIMC(event)">
+          <label for="peso">Peso</label>
+           <input required min="0" step="0.1" type="number" name="peso" id="peso">
+           <label for="peso">Altura</label>
+           <input  required  min="0" step="0.01"  type="number" name="Altura" id="altura">
+           <input type="submit" value="Calcular">
+      </form>
+  </div>
+
+<span id="resultado"></span>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>

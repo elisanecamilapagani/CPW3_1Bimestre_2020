@@ -1,0 +1,71 @@
+@import 'fontes'; 
+@import 'cores';
+
+body{
+    margin: 0;
+    background-color: $cor-body;
+}
+#banner {
+
+    background-color: $cor-principal;
+    color: $texto;
+    padding: 30px 0;
+    font-family:    $font-decorativa;
+     text-align: center ;
+     margin-bottom: 10px;
+}
+
+h1{
+    font-size: 400%;
+    text-shadow: 2px 2px 1px ;
+}
+
+p{
+    font-size: 100%;
+}
+
+#formularioPessoa {
+
+ text-align: center;
+  margin-top: 20px;
+
+  *  {
+    font-family:  $font-padrao;
+    }
+   
+    label{
+        font-size: 120%;
+        margin-right: 10px;
+    }
+
+    input [type=number] {
+        height: 25px;
+        font-size: 100%;
+        border: none;
+       border-radius: 5px;
+        box-shadow: 2px 2px  #eeeeef, 
+         -2px -2px #eeeeef;
+
+
+    }
+
+    input[type= submit] {
+         
+         background-color: $cor-principal;
+         color:$texto ;
+         font-size: 120%;
+         padding: 10px 10px;
+         border: none;
+         border-radius: 5px;
+    }
+    
+}
+
+
+#resultado{
+    display: block;
+    font-family: $font-padrao;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 50px;
+}

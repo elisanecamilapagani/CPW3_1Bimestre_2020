@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/estilos.scss">
+  <script src="https://unpkg.com/imask"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de CPF ou CNPJ</title>
+</head>
+
+<body>
+  <div id="banner">
+    <h1>Validação</h1>
+    <h2>Informe seu CPF ou CNPJ</h2>
+  </div>
+
+  <div id="validar">
+
+    <input type="text" id="validacao"  placeholder="Digite um numero">
+
+    <div id="desainer">
+      <Button  onclick="verificarCPF()">CPF</Button>
+      <button id="button2" onclick="VerCNPJ()"> CNPJ</button>
+    </div>
+  </div>
+
+
+  <span id="resultado"></span>
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
