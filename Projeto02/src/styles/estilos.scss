@@ -1,0 +1,284 @@
+@import 'cores';
+@import 'fontes';
+@import 'imagens';
+
+//$estilo-border: 2px  solid white;
+
+body {
+    margin: 0;
+    font-family: $fonte-geral;
+}
+
+#banner {
+   background-image: $img-banner;
+   background-size: 50px;
+    height: 150px;
+   width: 1009px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 250px;
+   margin: 0px;
+  
+
+
+    
+    
+    .texto {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 55px;
+      //  border-top: $estilo-border;
+     //   border-bottom: $estilo-border;
+     
+        h1 {
+            font-size:300%;
+           font-family: $fonte-geral;
+            margin: 10;
+        }
+    }
+}
+.conteudo{
+
+    h1{
+          text-align: center;
+        color: #1e824c;
+           font-size: 200%;
+           height: 35px;
+           display: block;
+           margin-top: 30px;
+           
+       }
+}
+#visualizarTabela{ 
+    table {
+        border-collapse: collapse;
+        margin: 0px auto 50px auto;
+        width: 95%;
+          font-family: $fonte-secundaria;
+           padding-top: 200px;
+        // padding-right: 100px;
+       //   padding-bottom: 100px;
+        // padding-left: 200px;
+         //height: 4px;
+
+        thead {
+            font-size: 120%;
+            background-color: $cor-hover;
+              color: rgb(38, 75, 43);
+             // color: #2c3e50;
+
+        }
+
+        tr {
+
+            &:hover {
+                td {
+                   background-color: #1a5744;
+
+                }
+            }
+            &:nth-child(even) {
+               background-color: $cor-hover;
+               
+
+            } 
+
+            td {
+                font-size: 100%;
+            }
+
+            th,
+            td {
+                
+                text-align: center;
+                padding: 4px 0px;
+                
+               // &:first-child {
+                  //  text-align: left;
+                   // padding-left: 5px;
+               // }
+                //&:last-child {
+                  //  text-align: right;
+                   // padding-right: 5px;
+              //  }
+            }
+        }
+    }
+
+}
+
+#cardsJogos{
+
+    display: none;
+    margin-top: 20px;
+    margin: 10px auto 10px auto;
+    width: 80%;
+
+    
+
+    div{
+        margin-top: 10px;
+    
+        span{
+            font-family: $fonte-geral;
+            font-size: 90%;
+            display: block;
+            text-align: center;
+            padding: 3px;
+        
+            &:first-child { 
+                background-color: $cor-hover;
+                font-size: 100%;
+                 color:#2ecc71;
+                padding: 5px;
+                border-radius: 3px;
+            }
+            
+        }
+
+    }
+}
+#rodape {
+    background-color: $cor-rodape;
+     color: black;
+    padding: 55px 0px;
+    display: flex;
+    width: 110%;
+    align-items: center;
+    justify-content: space-around;
+
+   .copyright{
+       font-size: $fonte-secundaria;
+       text-align: center;
+   }
+
+    p{
+        font-size: 110%;
+    }
+ 
+    
+    * {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    
+
+    .copyright,
+    .contato,
+    .poweredBy {
+        width: calc(100%/3);
+    }
+    
+  
+    a {
+        text-decoration: none;
+        padding-bottom: 5px;
+         color: black;
+    }
+    .poweredBy{
+        color:$cor-textRodape;
+        font-size: 13px;
+        font-family: $fonte-secundaria;
+        h4{
+            text-align: center;
+            display: block;
+        }
+    }
+    
+    .copyright {
+        padding-left: 15px;
+        font-family: $fonte-secundaria;
+        font-size: 100%;
+        color:$cor-textRodape;
+        display: inline;
+       
+    }
+    .contato {
+         
+        * {
+           display: block;
+            color:$cor-textRodape;
+        }
+        
+
+        h3 {
+            font-family: $fonte-secundaria;
+            font-size: 140%;
+        }
+
+           div {
+           * {
+                display: inline-flex;
+                justify-content: center;
+            }
+
+            img {
+                width: 25px;
+                padding-right: 10px;
+                -webkit-filter: brightness(0) invert(1);
+            }
+
+                   &:hover {
+                    a {
+                   color: $cor-hover;
+                  }
+
+               img {
+                   -webkit-filter: brightness(1) invert(0);
+               }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+
+    #banner{
+        height: 120px;
+
+        .texto{
+            width: auto;
+            position: relative;
+            h1 {
+                font-size: 90%;
+            }
+        }
+    }
+
+    #cardsJogos{
+        display: block;
+    }
+
+    #visualizarTabela{
+        display: none;
+    }
+
+    #rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .contato, .copyright, .poweredBy{
+            margin-bottom: 3px;
+            h3{
+                font-size: 100%;
+            }
+            img{
+                width: 20px;
+            }
+        }
+
+        .copyright{
+            margin-bottom: 0px;
+        }
+    }
+   
+}    

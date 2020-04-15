@@ -1,0 +1,157 @@
+{
+    "jogos": [{
+            "Campeão": "França",
+            "Ano": "2018",
+            "Técnico": " Didier Deschamps",
+            "Vice": "Croácia",
+            "Placar": "4x2"
+           
+        },
+        {
+            "Campeão": "Alemanha",
+            "Ano": "2014",
+            "Técnico": "Joachim Löw",
+            "Vice": "Argentina",
+            "Placar": "1x0"
+        },
+        {
+            "Campeão": "Espanha",
+            "Ano": "2010",
+            "Técnico": "Vicente del Bosque",
+            "Vice": "Holanda",
+            "Placar": "1x0"
+        },
+
+        {
+            "Campeão": "Itália",
+            "Ano": "2006",
+            "Técnico": "Marcello Lippi",
+            "Vice": "França",
+            "Placar": "5x3"
+        },
+
+        {
+            "Campeão": "Brasil",
+            "Ano": "2002",
+            "Técnico": "Luiz Felipe Scolari",
+            "Vice": "Alemanha",
+            "Placar": "2x0"
+        },
+        {
+            "Campeão": "França",
+            "Ano": "1998",
+             "Técnico": "Aimé Jacquet",
+             "Vice": "Brasil",
+             "Placar": "3x0"
+         },
+
+         {
+            "Campeão": "Brasil",
+            "Ano": "1994",
+             "Técnico": " Carlos Alberto Parreira",
+             "Vice": "Italia",
+             "Placar": "3x2"
+         },
+         {
+            "Campeão": "Alemanha Ocidental",
+            "Ano": "1990",
+             "Técnico": "Carlos Salvador Bilardo",
+             "Vice": "Argentina",
+             "Placar": "1x0"
+         },
+
+         {
+            "Campeão": "Agentina",
+            "Ano": "1986",
+             "Técnico": "Carlos Bilardo",
+             "Vice": "Alemanha Ocidental",
+             "Placar": "3x2"
+         },
+         {
+            "Campeão": "Italia",
+            "Ano": "1982",
+             "Técnico": "Enzo Bearzot",
+             "Vice": "Alemanha Ocidental",
+             "Placar": "3x1"
+         },
+         {
+            "Campeão": "Argentina",
+            "Ano": "1978",
+             "Técnico": "César Luis Menotti",
+             "Vice": "Holanda",
+             "Placar": "3x1"
+         },
+         {
+            "Campeão": "Alemanha Ocidental",
+            "Ano": "1974",
+             "Técnico": "Helmut Schön",
+             "Vice": "Holanda",
+             "Placar": "2x1"
+         },
+         {
+            "Campeão": "Brasil",
+            "Ano": "1970",
+             "Técnico": "Mário Jorge Lobo Zagallo",
+             "Vice": "Italia",
+             "Placar": "4x1"
+         },
+         {
+            "Campeão": "Inglaterra",
+            "Ano": "1966",
+             "Técnico": "Alf Ramsey.",
+             "Vice": "Alemanha ocidental",
+             "Placar": "4x2"
+         },
+         {
+            "Campeão": "Brasil",
+            "Ano": "1962",
+             "Técnico": "Aymoré Moreira",
+             "Vice": "Tchecoslovaquia",
+             "Placar": "3x1"
+         },
+         {
+            "Campeão": "Brasil",
+            "Ano": "1958",
+             "Técnico": "Vicente Feola",
+             "Vice": "Suecia",
+             "Placar": "5x2"
+         },
+         {
+            "Campeão": "Alemanha Ocidental",
+            "Ano": "1954",
+             "Técnico": "Sepp Herberger",
+             "Vice": "Hungria",
+             "Placar": "3x2"
+         },
+         {
+            "Campeão": "Uruguai",
+            "Ano": "1950",
+             "Técnico": "Juan López Fontana",
+             "Vice": "Brasil",
+             "Placar": "2x1"
+         },
+         {
+            "Campeão": "Italia",
+            "Ano": "1938",
+             "Técnico": "Vittorio Pozzo",
+             "Vice": "Hungria",
+             "Placar": "4x2"
+         },
+         {
+            "Campeão": "Italia",
+            "Ano": "1934",
+             "Técnico": "Vittorio Pozzo",
+             "Vice": "Tchecoslovaquia",
+             "Placar": "2x1"
+         },
+          
+         {
+            "Campeão": "Uruguai",
+            "Ano": "1930",
+             "Técnico": "Alberto Suppici",
+             "Vice": "Argentina",
+             "Placar": "4x2"
+         }
+         
+    ]
+}
