@@ -1,0 +1,18 @@
+@font-face{
+    font-family: ' padrao';
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face{
+    font-family: ' negrito';
+    src: url(../fonts/RobotoMono-Bold.ttf);
+}
+
+@font-face{
+    font-family: ' decorativa';
+    src: url(../fonts/RobotoSlab-ExtraLight.ttf);
+}
+
+$fonte-padrao: 'padrao';
+$fonte-negrito: 'negrito';
+$fonte-decorativa: 'decorativa';

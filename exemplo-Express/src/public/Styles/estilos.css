@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+  font-family: " padrao";
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: " negrito";
+  src: url(../fonts/RobotoMono-Bold.ttf);
+}
+@font-face {
+  font-family: " decorativa";
+  src: url(../fonts/RobotoSlab-ExtraLight.ttf);
+}
+body {
+  margin: 0;
+}
+
+#banner {
+  background-color: #1e8bc3;
+  color: white;
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+#banner h1 {
+  font-family: "decorativa";
+  font-size: 270%;
+  text-shadow: 4px 4px black;
+  font-variant-ligatures: initial;
+}
+#banner p {
+  font-family: "padrao";
+}
+
+#centro {
+  display: flex;
+  font-family: "padrao";
+}
+
+#menu {
+  width: 20%;
+  background-color: #34495e;
+  color: white;
+  padding: 20px 0 40px 20px;
+}
+#menu span {
+  font-size: 150%;
+  font-family: "negrito";
+}
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+#menu ul a {
+  text-decoration: none;
+  color: white;
+}
+#menu ul a:hover {
+  color: #89c4f4;
+}
+#menu ul li {
+  margin-bottom: 7px;
+}
+
+#conteudo {
+  width: 90%;
+  padding: 7px;
+}
+#conteudo h1 {
+  font-size: 120%;
+  color: black;
+}
+
+#cadastroCliente {
+  padding: 10px;
+  border: 1px solid #5c97bf;
+  width: 90%;
+  margin: auto;
+}
+#cadastroCliente label, #cadastroCliente input {
+  display: block;
+  font-family: "padrao";
+}
+#cadastroCliente input {
+  margin-bottom: 10px;
+  height: 20px;
+  font-size: 123%;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  padding-left: 5px;
+}
+#cadastroCliente input[type=name] {
+  width: 300px;
+}
+#cadastroCliente input[type=email] {
+  width: 200px;
+}
+#cadastroCliente input[type=submit] {
+  padding: 10px 20px;
+  /* Anula a altura padrão */
+  height: inherit;
+  background-color: #5c97bf;
+  color: white;
+  border: none;
+  text-shadow: 1px 1px 1px #555555;
+}
+
+#visualizacaoClientes h3 {
+  font-family: "decorativa";
+  font-size: 150%;
+  text-align: center;
+}
+#visualizacaoClientes table {
+  border-collapse: collapse;
+  margin: 0px auto 80px auto;
+  width: 98%;
+  font-family: "padrao";
+  padding-top: 100px;
+}
+#visualizacaoClientes table thead {
+  font-size: 125%;
+  background-color: #89c4f4;
+  color: white;
+}
+#visualizacaoClientes table tr:hover td {
+  background-color: #446cb3;
+}
+#visualizacaoClientes table tr:nth-child(even) {
+  background-color: #89c4f4;
+}
+#visualizacaoClientes table tr td {
+  font-size: 100%;
+}
+#visualizacaoClientes table tr th,
+#visualizacaoClientes table tr td {
+  font-size: 100%;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+#rodape {
+  background-color: #22313f;
+  color: white;
+  padding: 20px;
+  font-size: 80%;
+  font-family: "negrito";
+}
+
+/*# sourceMappingURL=estilos.css.map */

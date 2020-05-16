@@ -1,0 +1,169 @@
+@import 'fontes';
+@import 'cores';
+
+body{
+    margin: 0;
+}
+
+#banner{
+    background-color: $cor-banner;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 30px 0px ;
+
+
+    h1{
+        font-family: $fonte-decorativa;
+        font-size: 270%;
+        text-shadow: 4px 4px black;
+        font-variant-ligatures: initial;
+    }
+
+    p{
+        font-family: $fonte-padrao;
+    }
+}
+
+#centro{
+    display: flex;
+    font-family: $fonte-padrao;
+
+}
+
+#menu{
+    width: 20%;
+    background-color: $cor-menu;
+    color: white;
+    padding: 20px 0 40px 20px ;
+
+    span{
+        font-size: 150%;
+        font-family:$fonte-negrito ;
+
+    }
+
+    ul{
+
+        list-style: none;
+        padding-left: 0;
+
+        a{
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                color: $cor-hover;
+            }
+
+        }
+
+        li{
+            margin-bottom: 7px;
+        }
+    }
+}
+
+#conteudo{
+    width: 90%;
+    padding: 7px;
+
+    h1{
+        font-size: 120%;
+        color: black;
+    }
+}
+
+#cadastroCliente{
+        padding: 10px;
+        border: 1px solid #5c97bf;
+        width: 90%;
+        margin: auto;
+    
+        label, input {
+        display: block;
+        font-family: $fonte-padrao;
+      }
+        input {
+        margin-bottom: 10px;
+        height: 20px;
+        font-size: 123%;
+        border-radius: 5px;
+        border: 1px solid #aaaaaa;
+        padding-left: 5px;
+      }
+       input[type=name] {
+        width: 300px;
+      }
+     
+      input[type=email] {
+        width: 200px;
+      }
+      input[type=submit] {
+        padding: 10px 20px;
+        /* Anula a altura padrão */
+        height: inherit;
+        background-color: #5c97bf;
+        color: white;
+        border: none;
+        text-shadow: 1px 1px 1px #555555;
+      }
+
+}
+
+#visualizacaoClientes {
+
+    h3{
+        font-family: $fonte-decorativa;
+        font-size: 150%;
+        text-align: center;
+    }
+    table{
+
+        border-collapse: collapse;
+        margin: 0px auto 80px auto;
+        width: 98%;
+        font-family: $fonte-padrao;
+        padding-top: 100px;
+
+        thead{
+            font-size: 125%;
+            background-color: $cor-hover;
+            color:white;
+
+        }
+        tr {
+
+            &:hover {
+                td {
+                   background-color:#446cb3;
+
+                }
+            }
+            &:nth-child(even) {
+               background-color: $cor-hover;
+               
+
+            } 
+
+            td {
+                font-size: 100%;
+            }
+
+            th,
+            td {
+                font-size: 100%;
+                text-align: center;
+                padding: 5px 0px;
+            } 
+        }  
+    }
+}
+
+
+#rodape{
+    background-color: $cor-rodape;
+    color: white;
+    padding: 20px;
+    font-size: 80%;
+    font-family: $fonte-negrito;
+}
